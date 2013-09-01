@@ -1,0 +1,62 @@
+name	type	region	link	tip	property	value
+		 1, 1, 4, 4	right|bottom			
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+rocket_strike	button	 -9, 1, 41, 51		order_airstrike_nurs								{НУРС}
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\airstrike_nurs.tga
+					image_selected	main\buttons2\airstrike_nurs_over.tga
+					image_pressed	main\buttons2\airstrike_nurs_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+bomb_strike	button	 43, 1, 93, 51		order_airstrike_bomb									{Бомбы}
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\airstrike_bomb.tga
+					image_selected	main\buttons2\airstrike_bomb_over.tga
+					image_pressed	main\buttons2\airstrike_bomb_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+Airstrike_quit	button	 -9, 105, 41, 155		gamemenu_back									{выход из меню авиаподдержки}
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\quit_normal.tga
+					image_selected	main\buttons2\quit_over.tga
+					image_pressed	main\buttons2\quit_press.tga
+					sound_pressed	ui\click.wav
+					mode	normal
+missile_strike	button	 95, 1, 145, 51		order_airstrike_atgm							{УРС}
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\airstrike_ptur.tga
+					image_selected	main\buttons2\airstrike_ptur_over.tga
+					image_pressed	main\buttons2\airstrike_ptur_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+rocket_strike_count	text	 26, 26, 51, 51				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					font	arial20b
+					single_line	false
+					color	0xffFFFFFF
+bomb_strike_count	text	 78, 26, 103, 51				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					font	arial20b
+					single_line	false
+					color	0xffFFFFFF
+missile_strike_count	text	 130, 26, 155, 51				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					font	arial20b
+					single_line	false
+					color	0xffFFFFFF

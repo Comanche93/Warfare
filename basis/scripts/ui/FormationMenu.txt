@@ -1,0 +1,51 @@
+name	type	region	link	tip	property	value
+		 1, 1, 4, 4	right|bottom			
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+line_extended	button	 43, 1, 93, 51		order_formation_wide_line							{широкая шеренга}
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\type_line_wide.tga
+					image_selected	main\buttons2\type_line_wide_over.tga
+					image_pressed	main\buttons2\type_line_wide_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+mixed	button	 -9, 53, 41, 103		order_formation_scatter									{плотной группой}
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\type_random.tga
+					image_selected	main\buttons2\type_random_over.tga
+					image_pressed	main\buttons2\type_random_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+line	button	 -9, 1, 41, 51		order_formation_line										{шеренга}
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\type_line.tga
+					image_selected	main\buttons2\type_line_over.tga
+					image_pressed	main\buttons2\type_line_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+mixed_extended	button	 43, 53, 93, 103		order_formation_wide_scatter					{рассредоточиться!}
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\type_random_wide.tga
+					image_selected	main\buttons2\type_random_wide_over.tga
+					image_pressed	main\buttons2\type_random_wide_press.tga
+					sound_selected	ui\over.wav
+					sound_pressed	ui\click3.wav
+					mode	normal
+Formation_quit	button	 147, 53, 197, 103		gamemenu_back									{выход из меню}
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\quit_normal.tga
+					image_selected	main\buttons2\quit_over.tga
+					image_pressed	main\buttons2\quit_press.tga
+					sound_pressed	ui\click.wav
+					mode	normal

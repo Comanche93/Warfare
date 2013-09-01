@@ -1,0 +1,284 @@
+name	type	region	link	tip	property	value
+		 1, 1, 4, 4				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+Button_attack	button	 43, 1, 93, 51		order_attack										{атаковать всем, что есть}
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\attack.tga
+					image_selected	main\buttons2\attack_over.tga
+					image_pressed	main\buttons2\attack_press.tga
+					sound_pressed	ui\click3.wav
+					mode	check
+Button_build	button	 -9, 105, 41, 155		order_build		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons\build_normal.tga
+					image_selected	main\buttons\build_over.tga
+					image_pressed	main\buttons\build_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+Button_stop	button	 147, 1, 197, 51		order_stop		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\stand.tga
+					image_selected	main\buttons2\stand_over.tga
+					image_pressed	main\buttons2\stand_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+Button_repair	button	 83, 229, 133, 279	Ремонтировать			
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\attack.tga
+					image_selected	main\buttons2\attack_over.tga
+					image_pressed	main\buttons2\attack_press.tga
+					sound_pressed	ui\click3.wav
+					mode	check
+Button_move	button	 95, 1, 145, 51		order_move												{двигаться до контакта}
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\move.tga
+					image_selected	main\buttons2\move_over.tga
+					image_pressed	main\buttons2\move_press.tga
+					sound_pressed	ui\click3.wav
+					mode	check
+Button_landing	button	 -9, 53, 41, 103		order_landing		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\heli_land.tga
+					image_selected	main\buttons2\heli_land_over.tga
+					image_pressed	main\buttons2\heli_land_press.tga
+					sound_pressed	ui\click3.wav
+					mode	check
+Button_cover	button	 95, 105, 145, 155		order_cover		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\hide.tga
+					image_selected	main\buttons2\hide_over.tga
+					image_pressed	main\buttons2\hide_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+Button_unload	button	 -9, 105, 41, 155		order_unload		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\bmp_from.tga
+					image_selected	main\buttons2\bmp_from_over.tga
+					image_pressed	main\buttons2\bmp_from_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+Button_behavior	button	 43, 53, 93, 103		order_behavior									{поведение}
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\mode_yellow.tga
+					image_selected	main\buttons2\mode_yellow_over.tga
+					image_pressed	main\buttons2\mode_yellow_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+Button_formation	button	 147, 53, 197, 103		order_formation								{построение}
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\type_line.tga
+					image_selected	main\buttons2\type_line_over.tga
+					image_pressed	main\buttons2\type_line_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+Button_pack	button	 -9, 53, 41, 103		order_pack		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\slozhit.tga
+					image_selected	main\buttons2\slozhit_over.tga
+					image_pressed	main\buttons2\slozhit_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+Button_unpack	button	 -9, 53, 41, 103		order_unpack		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\razlozhit.tga
+					image_selected	main\buttons2\razlozhit_over.tga
+					image_pressed	main\buttons2\razlozhit_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+Button_refuel	button	 -8, 225, 42, 275		order_refuel		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons\build_normal.tga
+					image_selected	main\buttons\build_over.tga
+					image_pressed	main\buttons\build_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+Button_reload	button	 183, 223, 233, 273		order_reload		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons\build_normal.tga
+					image_selected	main\buttons\build_over.tga
+					image_pressed	main\buttons\build_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+Button_behavior_green	button	17, 343, 67, 393		behavior_green		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\mode_green.tga
+					image_selected	main\buttons2\mode_green_over.tga
+					image_pressed	main\buttons2\mode_green_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+Button_behavior_yellow	button	 133, 342, 183, 392		behavior_yellow		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\mode_yellow.tga
+					image_selected	main\buttons2\mode_yellow_over.tga
+					image_pressed	main\buttons2\mode_yellow_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+Button_behavior_red	button	 291, 315, 341, 365		behavior_red		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\mode_red.tga
+					image_selected	main\buttons2\mode_red_over.tga
+					image_pressed	main\buttons2\mode_red_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+Button_mine	button	 -9, 105, 41, 155		order_mine											{режим минирования}
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\button_mine.tga
+					image_selected	main\buttons2\button_mine_over.tga
+					image_pressed	main\buttons2\button_mine_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+Button_unload_crew	button	 147, 105, 197, 155		order_unload_crew		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\button_out.tga
+					image_selected	main\buttons2\button_out_over.tga
+					image_pressed	main\buttons2\button_out_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+Button_attach_trailer	button	 -9, 105, 41, 155		order_attach_trailer		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\button_attach_trailer.tga
+					image_selected	main\buttons2\button_attach_trailer_over.tga
+					image_pressed	main\buttons2\button_attach_trailer_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+Button_detach_trailer	button	 -9, 105, 41, 155		order_deatach_trailer		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\button_detach_trailer.tga
+					image_selected	main\buttons2\button_detach_trailer_over.tga
+					image_pressed	main\buttons2\button_detach_trailer_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+Button_attack_with_move	button	 95, 53, 145, 103		order_moving_fire		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\attack_with_move.tga
+					image_selected	main\buttons2\attack_with_move_over.tga
+					image_pressed	main\buttons2\attack_with_move_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+Button_attack_with_move_enabled	button	 286, 228, 336, 278		order_behavior		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\attack_with_move.tga
+					image_selected	main\buttons2\attack_with_move_over.tga
+					image_pressed	main\buttons2\attack_with_move_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+Button_attack_with_move_disabled	button	 423, 279, 473, 329		order_behavior		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\attack_with_stop.tga
+					image_selected	main\buttons2\attack_with_stop_over.tga
+					image_pressed	main\buttons2\attack_with_stop_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+Button_self_repairing	button	 95, 105, 145, 155		order_self_repairing		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\repair.tga
+					image_selected	main\buttons2\repair_over.tga
+					image_pressed	main\buttons2\repair_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+Button_fight	button	 -9, 1, 41, 51		order_assault										{штурм}
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\button_fight.tga
+					image_selected	main\buttons2\button_fight_over.tga
+					image_pressed	main\buttons2\button_fight_press.tga
+					sound_pressed	ui\click3.wav
+					mode	check
+Button_flare	button	 43, 105, 93, 155		order_smoke		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\button_flare.tga
+					image_selected	main\buttons2\button_flare_over.tga
+					image_pressed	main\buttons2\button_flare_press.tga
+					sound_pressed	ui\click3.wav
+					mode	check
+Button_close_hatches	button	 147, 53, 197, 103		order_close_hatch		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\button_close_hatches.tga
+					image_selected	main\buttons2\button_close_hatches_over.tga
+					image_pressed	main\buttons2\button_close_hatches_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+Button_open_hatches	button	 147, 53, 197, 103		order_open_hatch		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\button_open_hatches.tga
+					image_selected	main\buttons2\button_open_hatches_over.tga
+					image_pressed	main\buttons2\button_open_hatches_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+Button_rotate	button	 -9, 1, 41, 51		order_rotate		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\patrol.tga
+					image_selected	main\buttons2\patrol_over.tga
+					image_pressed	main\buttons2\patrol_press.tga
+					sound_pressed	ui\click3.wav
+					mode	check
+Button_airstrike	button	 -9, 105, 41, 155		order_airstrike								{авиаподдержка}
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\airstrike_call.tga
+					image_selected	main\buttons2\airstrike_call_over.tga
+					image_pressed	main\buttons2\airstrike_call_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal

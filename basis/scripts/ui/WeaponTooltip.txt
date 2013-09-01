@@ -1,0 +1,35 @@
+name	type	region	link	tip	property	value
+		 1, 1, 55, 41	right|bottom			
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+background	widget	 -249, 401, 125, 601				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	tm_main_tooltip.tga
+Tooltip_title	text	-220, 404, 114, 428				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	left|top
+					font	verdana18
+					single_line	false
+					color	0xff24AAFB
+Description	text	 -217, 420, 114, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	left|vcenter
+					font	verdana14
+					single_line	false
+					color	0xffFFFFFF
+Additional	text	-217, 472, 114, 597				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	left|bottom
+					font	verdana14
+					single_line	false
+					color	0xffEDCA52
+

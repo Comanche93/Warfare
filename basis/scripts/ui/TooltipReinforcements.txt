@@ -1,0 +1,486 @@
+name	type	region	link	tip	property	value
+		 51, -2, 850, 278	hcenter|bottom			
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+Background	widget	 1, 1, 897, 281				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	globalshop\tooltip_back.tga
+Description	text	 7, 132, 845, 275				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					font	verdana16
+					single_line	false
+					color	0xffFEFCDA
+BaseInfo	widget	 1, 1, 252, 131				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+InfoHealthText	text	 89, 6, 249, 22				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					text	tooltip_unitinfo_health
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+InfoHealthBar	progress_bar	 5, 7, 86, 21				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	globalshop\progress_bar_back.tga
+					progress_image	globalshop\progress_bar_front.tga
+					direction	horizontal
+					font	arial12b
+					color	0xffFFFFFF
+InfoFightText	text	 89, 6, 249, 22				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					text	tooltip_unitinfo_fight
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+InfoFightBar	progress_bar	 5, 7, 86, 21				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	globalshop\progress_bar_back.tga
+					progress_image	globalshop\progress_bar_front.tga
+					direction	horizontal
+					font	arial12b
+					color	0xffFFFFFF
+InfoVisionText	text	 89, 6, 249, 22				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					text	tooltip_unitinfo_vision
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+InfoVisionBar	progress_bar	 5, 7, 86, 21				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	globalshop\progress_bar_back.tga
+					progress_image	globalshop\progress_bar_front.tga
+					direction	horizontal
+					font	arial12b
+					color	0xffFFFFFF
+InfoCamoText	text	 89, 6, 249, 22				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					text	tooltip_unitinfo_camo
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+InfoCamoBar	progress_bar	 5, 7, 86, 21				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	globalshop\progress_bar_back.tga
+					progress_image	globalshop\progress_bar_front.tga
+					direction	horizontal
+					font	arial12b
+					color	0xffFFFFFF
+InfoVelocityText	text	 89, 6, 249, 22				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					text	tooltip_unitinfo_velocity
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+InfoDecelerationText	text	 89, 6, 249, 22				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					text	tooltip_unitinfo_deceleration
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+InfoSupplyText	text	 90, 6, 250, 22				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					text	tooltip_unitinfo_supply
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+InfoVelocityBar	progress_bar	 5, 7, 86, 21				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	globalshop\progress_bar_back.tga
+					progress_image	globalshop\progress_bar_front.tga
+					direction	horizontal
+					font	arial12b
+					color	0xffFFFFFF
+InfoDecelerationBar	progress_bar	 5, 7, 86, 21				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	globalshop\progress_bar_back.tga
+					progress_image	globalshop\progress_bar_front.tga
+					direction	horizontal
+					font	arial12b
+					color	0xffFFFFFF
+InfoSupplyBar	progress_bar	 5, 7, 86, 21				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	globalshop\progress_bar_back.tga
+					progress_image	globalshop\progress_bar_front.tga
+					direction	horizontal
+					font	arial12b
+					color	0xffFFFFFF
+ammo_usual_0	widget	 273, 18, 317, 54		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+ammo_usual_1	widget	 354, 18, 398, 54		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+ammo_usual_2	widget	 436, 18, 480, 54		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+ammo_usual_4	widget	 272, 81, 316, 117		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+ammo_usual_5	widget	 355, 81, 399, 117		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+ammo_usual_6	widget	 435, 81, 479, 117		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+ammo_count_0	text	 257, 53, 333, 65				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma12
+					single_line	false
+					color	0xffFFFFFF
+ammo_count_1	text	 339, 53, 415, 65				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma12
+					single_line	false
+					color	0xffFFFFFF
+ammo_count_4	text	 257, 116, 333, 128				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter
+					text	NA
+					font	tahoma12
+					single_line	false
+					color	0xffFFFFFF
+ammo_count_2	text	 420, 53, 496, 65				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter
+					text	NA
+					font	tahoma12
+					single_line	false
+					color	0xffFFFFFF
+ammo_count_6	text	 420, 116, 496, 128				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma12
+					single_line	false
+					color	0xffFFFFFF
+ammo_count_5	text	 339, 116, 415, 128				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma12
+					single_line	false
+					color	0xffFFFFFF
+ammo_type_5	text	 339, 67, 415, 79				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+ammo_type_6	text	 420, 67, 496, 79				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+ammo_type_2	text	 420, 4, 496, 16				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+ammo_type_4	text	 257, 67, 333, 79				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+ammo_type_0	text	 257, 4, 333, 16				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+ammo_type_1	text	 339, 4, 415, 16				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+ammo_shooters_count_0	text	 302, 20, 315, 33				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	right|top
+					font	calibri18o
+					single_line	true
+					color	0xffFFFFFF
+ammo_shooters_count_1	text	 383, 20, 396, 33				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	right|top
+					font	calibri18o
+					single_line	true
+					color	0xffFFFFFF
+ammo_shooters_count_2	text	 465, 20, 478, 33				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	right|top
+					font	calibri18o
+					single_line	true
+					color	0xffFFFFFF
+ammo_shooters_count_4	text	 301, 83, 314, 96				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	right|top
+					font	calibri18o
+					single_line	true
+					color	0xffFFFFFF
+ammo_shooters_count_5	text	 384, 83, 397, 96				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	right|top
+					font	calibri18o
+					single_line	true
+					color	0xffFFFFFF
+ammo_shooters_count_6	text	 464, 83, 477, 96				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	right|top
+					font	calibri18o
+					single_line	true
+					color	0xffFFFFFF
+armor_background	widget	 585, 1, 890, 131				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	globalshop\tooltip_armor.tga
+armor_1_0	text	 705, 36, 763, 63				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|vcenter
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+armor_0_0	text	 645, 36, 703, 63				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|vcenter
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+armor_0_1	text	 645, 65, 703, 92				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|vcenter
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+armor_0_2	text	 645, 94, 703, 121				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|vcenter
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+armor_1_2	text	 705, 94, 763, 121				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|vcenter
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+armor_1_1	text	 705, 65, 763, 92				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|vcenter
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+armor_3_1	text	 765, 65, 823, 92				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|vcenter
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+armor_2_0	text	 825, 36, 883, 63				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|vcenter
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+armor_2_1	text	 825, 65, 883, 92				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|vcenter
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+armor_2_2	text	 825, 94, 883, 121				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|vcenter
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+armor_3_0	text	 765, 36, 823, 63				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|vcenter
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+armor_3_2	text	 765, 94, 823, 121				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|vcenter
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+armor_desc	widget	 589, 30, 641, 124				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	globalshop\bmp_infogramm.tga
+ammo_usual_3	widget	 519, 18, 563, 54		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+ammo_usual_7	widget	 518, 81, 562, 117		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+ammo_count_3	text	 500, 53, 576, 65				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter
+					text	NA
+					font	tahoma12
+					single_line	false
+					color	0xffFFFFFF
+ammo_count_7	text	 500, 116, 576, 128				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma12
+					single_line	false
+					color	0xffFFFFFF
+ammo_type_7	text	 500, 67, 576, 79				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+ammo_type_3	text	 500, 4, 576, 16				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma14
+					single_line	true
+					color	0xffFFFFFF
+ammo_shooters_count_3	text	 548, 20, 561, 33				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	right|top
+					font	calibri18o
+					single_line	true
+					color	0xffFFFFFF
+ammo_shooters_count_7	text	 547, 83, 560, 96				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	right|top
+					font	calibri18o
+					single_line	true
+					color	0xffFFFFFF

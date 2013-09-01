@@ -1,0 +1,789 @@
+name	type	region	link	tip	property	value
+		 127, 364, 801, 603	right|bottom			
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	main\sh_main2.tga
+ammo_expensive_4	widget	 417, 487, 461, 523		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+ammo_expensive_7	widget	 417, 551, 461, 587		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+ammo_expensive_5	widget	 483, 487, 527, 523		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+ammo_expensive_2	widget	 483, 423, 527, 459		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+ammo_expensive_1	widget	 417, 423, 461, 459		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+ammo_expensive_3	widget	 351, 487, 395, 523		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+ammo_expensive_6	widget	 351, 551, 395, 587		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+ammo_expensive_0	widget	 351, 423, 395, 459		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+SpeedBar	progress_bar	 616, 435, 675, 445		speed_tip		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image	main\progress_background.tga
+					progress_image	main\progress_face.tga
+					direction	horizontal
+					font	arial12b
+					color	0xffFFFFFF
+FuelBar	progress_bar	 616, 561, 708, 572				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	main\progress_background2.tga
+					progress_image	main\progress_face2.tga
+					direction	horizontal
+					font	arial12b
+					color	0xffFFFFFF
+ArmoringView	widget	 724, 457, 785, 567				
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+ammo_useless_2	widget	 483, 423, 527, 459				
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+rechargeBar	progress_bar	 616, 585, 708, 596				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	main\progress_background2.tga
+					progress_image	main\progress_face2.tga
+					direction	horizontal
+					font	arial12b
+					color	0xffFFFFFF
+ammo_useless_4	widget	 417, 487, 461, 523				
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+Unit_name	text	 576, 382, 798, 400		unit_name_tip		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					align	left|bottom
+					text	14
+					font	calibri18b
+					single_line	true
+					color	0xffBAB798
+ammo_useless_5	widget	 483, 487, 527, 523				
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+ammo_useless_7	widget	 417, 551, 461, 587				
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+ammo_useless_1	widget	 417, 423, 461, 459				
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+Parameters_speed	text	 679, 434, 710, 446				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	left|vcenter
+					font	calibri18
+					single_line	true
+					color	0xff313224
+Parameters_recharge	text	 616, 585, 708, 596		supplies_tip		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					align	hcenter|vcenter
+					font	tahoma12
+					single_line	true
+					color	0xff000000
+ParametersTitle_recharge	text	 545, 585, 614, 596		supplies_tip		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					align	left|vcenter
+					font	tahoma14
+					single_line	true
+					color	0xff313224
+ParametersTitle_speed	text	 545, 434, 614, 446		speed_tip		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					align	left|vcenter
+					font	tahoma14
+					single_line	true
+					color	0xff322C21
+ModulesView	widget	 540, 457, 710, 567	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+Parameters_fuel	text	 616, 561, 708, 572		fuel_tip		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					align	hcenter|vcenter
+					font	tahoma12
+					single_line	true
+					color	0xff000000
+ammo_count_bar_1	progress_bar	 409, 461, 475, 473				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	main\progress_background2.tga
+					progress_image	main\progress_face2.tga
+					direction	horizontal
+					font	arial12b
+					color	0xffFFFFFF
+ammo_count_bar_2	progress_bar	 476, 460, 542, 472				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	main\progress_background2.tga
+					progress_image	main\progress_face2.tga
+					direction	horizontal
+					font	arial12b
+					color	0xffFFFFFF
+ParametersTitle_fuel	text	 545, 561, 614, 572		fuel_tip		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					align	left|vcenter
+					font	tahoma14
+					single_line	true
+					color	0xff322C21
+ammo_count_bar_4	progress_bar	 409, 524, 475, 536				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	main\progress_background2.tga
+					progress_image	main\progress_face2.tga
+					direction	horizontal
+					font	arial12b
+					color	0xffFFFFFF
+ammo_count_bar_5	progress_bar	 476, 524, 542, 536				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	main\progress_background2.tga
+					progress_image	main\progress_face2.tga
+					direction	horizontal
+					font	arial12b
+					color	0xffFFFFFF
+ammo_count_bar_7	progress_bar	 409, 588, 475, 600				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	main\progress_background2.tga
+					progress_image	main\progress_face2.tga
+					direction	horizontal
+					font	arial12b
+					color	0xffFFFFFF
+ammo_usual_1	widget	 417, 423, 461, 459		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+AmmoBar1	progress_bar	 462, 423, 468, 458				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	vert_bar_wide_back.tga
+					progress_image	vert_bar_wide.tga
+					direction	vertical
+					font	arial12b
+					color	0xffFFFFFF
+ammo_usual_2	widget	 483, 423, 527, 459		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+FormationMenu	widget	 143, 412, 189, 458				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+AmmoBar2	progress_bar	 528, 423, 534, 458				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	vert_bar_wide_back.tga
+					progress_image	vert_bar_wide.tga
+					direction	vertical
+					font	arial12b
+					color	0xffFFFFFF
+ammo_usual_4	widget	 417, 487, 461, 523		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+ammo_usual_5	widget	 483, 487, 527, 523		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+AmmoBar4	progress_bar	 462, 487, 468, 522				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	vert_bar_wide_back.tga
+					progress_image	vert_bar_wide.tga
+					direction	vertical
+					font	arial12b
+					color	0xffFFFFFF
+ammo_usual_7	widget	 417, 551, 461, 587		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+AmmoBar7	progress_bar	 462, 551, 468, 586				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	vert_bar_wide_back.tga
+					progress_image	vert_bar_wide.tga
+					direction	vertical
+					font	arial12b
+					color	0xffFFFFFF
+GameMenu	widget	 143, 412, 189, 458				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+AmmoBar5	progress_bar	 528, 487, 534, 522				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	vert_bar_wide_back.tga
+					progress_image	vert_bar_wide.tga
+					direction	vertical
+					font	arial12b
+					color	0xffFFFFFF
+ammo_count_1	text	 408, 461, 476, 473				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma12
+					single_line	false
+					color	0xff000000
+ammo_usual_3	widget	 351, 487, 395, 523		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+ammo_count_2	text	 475, 460, 543, 472				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma12
+					single_line	false
+					color	0xff000000
+CamoBar	progress_bar	 616, 448, 675, 458		camo_tip		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image	main\progress_background.tga
+					progress_image	main\progress_face.tga
+					direction	horizontal
+					font	arial12b
+					color	0xffFFFFFF
+Parameters_camo	text	 679, 447, 710, 459				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	left|vcenter
+					font	calibri18
+					single_line	true
+					color	0xff313224
+ParametersTitle_camo	text	 545, 447, 614, 459		camo_tip		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					align	left|vcenter
+					font	tahoma14
+					single_line	true
+					color	0xff322C21
+Perk4	button	 904, 623, 930, 659				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					mode	normal
+Perk5	button	 938, 623, 964, 659				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					mode	normal
+Perk6	button	 972, 623, 998, 659				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					mode	normal
+Tech_name	text	 576, 399, 798, 419		unit_type_tip		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					align	left|top
+					font	tahoma18
+					single_line	true
+					color	0xffBAB798
+Exp_to	button	 542, 384, 574, 416		statistics_button_tip		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					mode	normal
+ExpBar	progress_bar	 544, 421, 800, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|vcenter
+					image	main\exp_grad.tga
+					progress_image	main\exp_gradtuda.tga
+					direction	horizontal
+					font	arial12b
+					color	0xffFFFFFF
+ammo_count_5	text	 475, 524, 543, 536				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter
+					text	NA
+					font	tahoma12
+					single_line	false
+					color	0xff000000
+ammo_count_4	text	 408, 524, 476, 536				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter
+					text	NA
+					font	tahoma12
+					single_line	false
+					color	0xff000000
+ammo_count_7	text	 408, 588, 476, 600				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma12
+					single_line	false
+					color	0xff000000
+ammo_type_7	text	 408, 537, 476, 549				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma14
+					single_line	true
+					color	0xff000000
+ammo_type_4	text	 408, 473, 476, 485				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma14
+					single_line	true
+					color	0xff000000
+ammo_type_5	text	 475, 473, 543, 485				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma14
+					single_line	true
+					color	0xff000000
+ammo_type_1	text	 408, 409, 476, 421				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma14
+					single_line	true
+					color	0xff000000
+ammo_type_2	text	 475, 409, 543, 421				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma14
+					single_line	true
+					color	0xff000000
+ammo_shooters_count_1	text	 446, 425, 459, 438				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	right|top
+					font	calibri18o
+					single_line	true
+					color	0xffFFFFFF
+ammo_useless_3	widget	 351, 487, 395, 523				
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+ammo_shooters_count_2	text	 512, 425, 525, 438				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	right|top
+					font	calibri18o
+					single_line	true
+					color	0xffFFFFFF
+ammo_shooters_count_4	text	 446, 489, 459, 502				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	right|top
+					font	calibri18o
+					single_line	true
+					color	0xffFFFFFF
+ammo_shooters_count_5	text	 512, 489, 525, 502				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	right|top
+					font	calibri18o
+					single_line	true
+					color	0xffFFFFFF
+ammo_shooters_count_7	text	 446, 553, 459, 566				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	right|top
+					font	calibri18o
+					single_line	true
+					color	0xffFFFFFF
+Parameters_capacity	text	 729, 572, 780, 589		troops_number_tip		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					align	hcenter|vcenter
+					font	tahoma18b
+					single_line	true
+					color	0xffC1C497
+ParametersTitle_capacity	text	 724, 561, 785, 571				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|vcenter
+					font	tahoma14
+					single_line	true
+					color	0xff212C0A
+Parameters_crew	text	 743, 442, 769, 466		members_number_tip		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					align	hcenter|vcenter
+					font	tahoma20b
+					single_line	true
+					color	0xffC1C497
+ParametersTitle_spares	text	 545, 573, 614, 584		spares_tip		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					align	left|vcenter
+					font	tahoma14
+					single_line	true
+					color	0xff313224
+ammo_useless_6	widget	 351, 551, 395, 587				
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+ammo_count_bar_0	progress_bar	 343, 460, 409, 472				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	main\progress_background2.tga
+					progress_image	main\progress_face2.tga
+					direction	horizontal
+					font	arial12b
+					color	0xffFFFFFF
+ammo_count_bar_3	progress_bar	 343, 524, 409, 536				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	main\progress_background2.tga
+					progress_image	main\progress_face2.tga
+					direction	horizontal
+					font	arial12b
+					color	0xffFFFFFF
+ammo_count_bar_6	progress_bar	 343, 588, 409, 600				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	main\progress_background2.tga
+					progress_image	main\progress_face2.tga
+					direction	horizontal
+					font	arial12b
+					color	0xffFFFFFF
+ammo_usual_0	widget	 351, 423, 395, 459		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+ammo_useless_0	widget	 351, 423, 395, 459				
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+AmmoBar0	progress_bar	 397, 423, 403, 458				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	vert_bar_wide_back.tga
+					progress_image	vert_bar_wide.tga
+					direction	vertical
+					font	arial12b
+					color	0xffFFFFFF
+ammo_type_0	text	 342, 409, 410, 421				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma14
+					single_line	true
+					color	0xff000000
+AmmoBar3	progress_bar	 397, 487, 403, 522				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	vert_bar_wide_back.tga
+					progress_image	vert_bar_wide.tga
+					direction	vertical
+					font	arial12b
+					color	0xffFFFFFF
+ammo_usual_6	widget	 351, 551, 395, 587		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+AmmoBar6	progress_bar	 397, 551, 403, 586				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	vert_bar_wide_back.tga
+					progress_image	vert_bar_wide.tga
+					direction	vertical
+					font	arial12b
+					color	0xffFFFFFF
+ammo_count_0	text	 342, 460, 410, 472				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma12
+					single_line	false
+					color	0xff000000
+ammo_count_3	text	 342, 524, 410, 536				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter
+					text	NA
+					font	tahoma12
+					single_line	false
+					color	0xff000000
+ammo_count_6	text	 342, 588, 410, 600				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma12
+					single_line	false
+					color	0xff000000
+ammo_type_6	text	 342, 537, 410, 549				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma14
+					single_line	true
+					color	0xff000000
+ammo_type_3	text	 342, 473, 410, 485				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma14
+					single_line	true
+					color	0xff000000
+ammo_shooters_count_0	text	 380, 425, 393, 438				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	right|top
+					font	calibri18o
+					single_line	true
+					color	0xffFFFFFF
+ammo_shooters_count_3	text	 380, 489, 393, 502				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	right|top
+					font	calibri18o
+					single_line	true
+					color	0xffFFFFFF
+ammo_shooters_count_6	text	 380, 553, 393, 566				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	right|top
+					font	calibri18o
+					single_line	true
+					color	0xffFFFFFF
+SparesBar	progress_bar	 616, 573, 708, 584				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	main\progress_background2.tga
+					progress_image	main\progress_face2.tga
+					direction	horizontal
+					font	arial12b
+					color	0xffFFFFFF
+Parameters_spares	text	 616, 573, 708, 584		spares_tip		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					align	hcenter|vcenter
+					font	tahoma12
+					single_line	true
+					color	0xff000000
+ParametersTitle_crew	text	 725, 434, 786, 444				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|vcenter
+					text	ParametersTitle_crew
+					font	tahoma14
+					single_line	true
+					color	0xff212C0A
+squad_icon	widget	 760, 380, 800, 420		unit_type_icon_tip		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+AmmunitionTitle	text	 375, 388, 500, 406				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|vcenter
+					text	ammunition_str
+					font	calibri18
+					single_line	true
+					color	0xff26250F
+inflamation_status	widget	 685, 461, 709, 485		tooltip_inflamation_status		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image	main\status_icons\no_inflamation_24.tga
+weapons_status	widget	 685, 498, 709, 522		tooltip_weapons_status		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image	main\status_icons\weapons_fine_24.tga
+mobility_status	widget	 685, 535, 709, 559		tooltip_mobility_status		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image	main\status_icons\engine_fine_24.tga
+inflamation	widget	 685, 461, 709, 485		tooltip_inflamation		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image	main\status_icons\inflamation.tga
+mobility_yellow	widget	 685, 535, 709, 559		tooltip_mobility_yellow		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image	main\status_icons\mobility_yellow.tga
+mobility_red	widget	 685, 535, 709, 559		tooltip_mobility_red		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image	main\status_icons\mobility_red.tga
+weapons_yellow	widget	 685, 498, 709, 522		tooltip_weapons_yellow		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image	main\status_icons\weapons_yellow.tga
+weapons_red	widget	 685, 498, 709, 522		tooltip_weapons_red		
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image	main\status_icons\weapons_red.tga
+ammo_expensive_8	widget	 484, 551, 528, 587		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+ammo_count_bar_8	progress_bar	 476, 588, 542, 600				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	main\progress_background2.tga
+					progress_image	main\progress_face2.tga
+					direction	horizontal
+					font	arial12b
+					color	0xffFFFFFF
+ammo_usual_8	widget	 484, 551, 528, 587		ammunition_tip		
+					tooltip_type	ammunition_text
+					enabled	TRUE
+					scaled	false
+ammo_useless_8	widget	 484, 551, 528, 587				
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+AmmoBar8	progress_bar	 530, 551, 536, 586				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	vert_bar_wide_back.tga
+					progress_image	vert_bar_wide.tga
+					direction	vertical
+					font	arial12b
+					color	0xffFFFFFF
+ammo_type_8	text	 475, 537, 543, 549				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma14
+					single_line	true
+					color	0xff000000
+ammo_count_8	text	 475, 588, 543, 600				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	hcenter|top
+					text	NA
+					font	tahoma12
+					single_line	false
+					color	0xff000000
+ammo_shooters_count_8	text	 513, 553, 526, 566				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					align	right|top
+					font	calibri18o
+					single_line	true
+					color	0xffFFFFFF
+MainFace	widget	 118, 334, 805, 603	right|bottom			
+					tooltip_type	simple
+					enabled	false
+					scaled	false
+					image	main\main_itself.tga

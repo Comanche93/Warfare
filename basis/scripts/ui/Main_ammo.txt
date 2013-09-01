@@ -1,0 +1,223 @@
+name	type	region	link	tip	property	value
+		 452, 377, 800, 473	right|bottom			
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	main\ammo\sh_main.tga
+ammo_usual_0	widget	 463, 403, 490, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\usual.bmp
+ammo_usual_1	widget	 501, 403, 528, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\usual.bmp
+ammo_usual_2	widget	 539, 403, 566, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\usual.bmp
+ammo_usual_3	widget	 577, 403, 604, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\usual.bmp
+ammo_usual_4	widget	 615, 403, 642, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\usual.bmp
+ammo_usual_5	widget	 653, 403, 680, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\usual.bmp
+LogicBox	widget	 450, 375, 800, 453				
+					tooltip_type	simple
+					enabled	false
+					scaled	false
+ammo_useless_0	widget	 463, 403, 490, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\useless.bmp
+ammo_useless_1	widget	 501, 403, 528, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\useless.bmp
+ammo_useless_2	widget	 539, 403, 566, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\useless.bmp
+ammo_useless_3	widget	 577, 403, 604, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\useless.bmp
+ammo_useless_4	widget	 615, 403, 642, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\useless.bmp
+ammo_useless_5	widget	 653, 403, 680, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\useless.bmp
+ammo_expensive_0	widget	 463, 403, 490, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\expensive.bmp
+ammo_expensive_1	widget	 501, 403, 528, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\expensive.bmp
+ammo_expensive_2	widget	 539, 403, 566, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\expensive.bmp
+ammo_expensive_3	widget	 577, 403, 604, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\expensive.bmp
+ammo_expensive_4	widget	 615, 403, 642, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\expensive.bmp
+ammo_expensive_5	widget	 653, 403, 680, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\expensive.bmp
+MainAmmo	widget	 451, 375, 800, 473	right|bottom			
+					tooltip_type	simple
+					enabled	false
+					scaled	false
+					image	main\ammo\main_itself.tga
+Main_ammo_button	button	 593, 381, 665, 393				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image_normal	v.tga
+					image_selected	v.tga
+					image_pressed	up.tga
+					mode	check
+ammo_count_1	text	 501, 441, 528, 451				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					text	NA
+					font	arial8b
+					single_line	true
+					color	0xff000000
+ammo_count_2	text	 539, 441, 566, 451				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					font	arial8b
+					single_line	true
+					color	0xff000000
+ammo_count_3	text	 577, 441, 604, 451				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					font	arial8b
+					single_line	true
+					color	0xff000000
+ammo_count_4	text	 615, 441, 642, 451				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					font	arial8b
+					single_line	true
+					color	0xff000000
+ammo_count_5	text	 653, 441, 680, 451				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					font	arial8b
+					single_line	true
+					color	0xff000000
+ammo_count_0	text	 463, 441, 490, 451				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					text	NA
+					font	arial8b
+					single_line	true
+					color	0xff000000
+ammo_usual_6	widget	 690, 403, 717, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\usual.bmp
+ammo_usual_7	widget	 728, 403, 755, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\usual.bmp
+ammo_usual_8	widget	 766, 403, 793, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\usual.bmp
+ammo_useless_6	widget	 690, 403, 717, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\useless.bmp
+ammo_useless_7	widget	 728, 403, 755, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\useless.bmp
+ammo_useless_8	widget	 766, 403, 793, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\useless.bmp
+ammo_expensive_6	widget	 690, 403, 717, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\expensive.bmp
+ammo_expensive_7	widget	 728, 403, 755, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\expensive.bmp
+ammo_expensive_8	widget	 766, 403, 793, 431				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	ammo\expensive.bmp
+ammo_count_6	text	 690, 441, 717, 451				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					font	arial8b
+					single_line	true
+					color	0xff000000
+ammo_count_7	text	 728, 441, 755, 451				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					font	arial8b
+					single_line	true
+					color	0xff000000
+ammo_count_8	text	 766, 441, 793, 451				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					font	arial8b
+					single_line	true
+					color	0xff000000

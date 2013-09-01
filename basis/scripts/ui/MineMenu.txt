@@ -1,0 +1,41 @@
+name	type	region	link	tip	property	value
+		 1, 1, 4, 4	right|bottom			
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+infantry_mine	button	 -9, 1, 41, 51		order_ap_mine										{противопехотные мины}
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\mine_infantry.tga
+					image_selected	main\buttons2\mine_infantry_over.tga
+					image_pressed	main\buttons2\mine_infantry_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+tank_mine	button	 43, 1, 93, 51		order_at_mine											{противотанковые мины}
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\mine_tank.tga
+					image_selected	main\buttons2\mine_tank_over.tga
+					image_pressed	main\buttons2\mine_tank_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal
+Mine_quit	button	 -9, 105, 41, 155		gamemenu_back										{выход из меню минирования}
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\quit_normal.tga
+					image_selected	main\buttons2\quit_over.tga
+					image_pressed	main\buttons2\quit_press.tga
+					sound_pressed	ui\click.wav
+					mode	normal
+tnt	button	 95, 1, 145, 51		order_c4														{радиовзрывчатка}
+					tooltip_type	tactical_text
+					enabled	true
+					scaled	false
+					image_normal	main\buttons2\mine_c4.tga
+					image_selected	main\buttons2\mine_c4_over.tga
+					image_pressed	main\buttons2\mine_c4_press.tga
+					sound_pressed	ui\click3.wav
+					mode	normal

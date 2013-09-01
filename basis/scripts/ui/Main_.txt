@@ -1,0 +1,4017 @@
+name	type	region	link	tip	property	value
+		 173, 447, 800, 600	right|bottom			
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	main\sh_main.tga
+Button_attack	button	 282, 473, 320, 511		В атаку		
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image_normal	main\buttons\attack_normal.tga
+					image_selected	main\buttons\attack_over.tga
+					image_pressed	main\buttons\attack_press.tga
+					mode	normal
+Button_stop	button	 323, 473, 361, 511		Стоять		
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image_normal	main\buttons\stop_normal.tga
+					image_selected	main\buttons\stop_over.tga
+					image_pressed	main\buttons\stop_press.tga
+					mode	normal
+Button_move	button	 241, 473, 279, 511		Приказ передвижения		
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image_normal	main\buttons\move_normal.tga
+					image_selected	main\buttons\move_over.tga
+					image_pressed	main\buttons\move_press.tga
+					mode	normal
+Unit_name	text	 570, 469, 790, 480				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					font	arial8b
+					single_line	true
+					color	0xff000000
+ParametersTitle_direction	text	 570, 480, 630, 490				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					font	arial8b
+					single_line	true
+					color	0xff000000
+Parameters_direction	text	 630, 480, 706, 490				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					font	arial8b
+					single_line	true
+					color	0xff000000
+Parameters_gun	text	 630, 520, 706, 530				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					font	arial8b
+					single_line	true
+					color	0xff000000
+Parameters_fuel	text	 630, 510, 706, 520				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					font	arial8b
+					single_line	true
+					color	0xff000000
+Parameters_speed	text	 630, 500, 706, 510				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					font	arial8b
+					single_line	true
+					color	0xff000000
+Parameters_camo	text	 630, 490, 706, 500				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					font	arial8b
+					single_line	true
+					color	0xff000000
+ParametersTitle_camo	text	 570, 490, 630, 500				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					font	arial8b
+					single_line	true
+					color	0xff000000
+ParametersTitle_speed	text	 570, 500, 630, 510				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					font	arial8b
+					single_line	true
+					color	0xff000000
+ParametersTitle_fuel	text	 570, 510, 630, 520				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					font	arial8b
+					single_line	true
+					color	0xff000000
+ParametersTitle_gun	text	 570, 520, 630, 530				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					font	arial8b
+					single_line	true
+					color	0xff000000
+tank_infogramm	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm.tga
+tank_infogramm_b_1	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_b_1.tga
+tank_infogramm_b_2	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_b_2.tga
+tank_infogramm_b_3	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_b_3.tga
+tank_infogramm_b_5a	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_b_5a.tga
+tank_infogramm_b_5b	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_b_5b.tga
+tank_infogramm_b_5c	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_b_5c.tga
+tank_infogramm_b_5d	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_b_5d.tga
+tank_infogramm_b_7	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_b_7.tga
+tank_infogramm_b_8	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_b_8.tga
+tank_infogramm_b_9	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_b_9.tga
+tank_infogramm_r_1	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_r_1.tga
+tank_infogramm_r_2	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_r_2.tga
+tank_infogramm_r_3	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_r_3.tga
+tank_infogramm_r_5a	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_r_5a.tga
+tank_infogramm_r_5b	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_r_5b.tga
+tank_infogramm_r_5c	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_r_5c.tga
+tank_infogramm_r_5d	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_r_5d.tga
+tank_infogramm_r_7	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_r_7.tga
+tank_infogramm_r_8	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_r_8.tga
+tank_infogramm_r_9	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_r_9.tga
+tank_infogramm_y_1	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_y_1.tga
+tank_infogramm_y_2	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_y_2.tga
+tank_infogramm_y_3	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_y_3.tga
+tank_infogramm_y_5a	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_y_5a.tga
+tank_infogramm_y_5b	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_y_5b.tga
+tank_infogramm_y_5c	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_y_5c.tga
+tank_infogramm_y_5d	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_y_5d.tga
+tank_infogramm_y_7	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_y_7.tga
+tank_infogramm_y_8	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_y_8.tga
+tank_infogramm_y_9	widget	 726, 483, 788, 599				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\tank_infogramm_y_9.tga
+bmp_infogramm	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm.tga
+bmp_infogramm_b_1	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_b_1.tga
+bmp_infogramm_b_2	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_b_2.tga
+bmp_infogramm_b_3	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_b_3.tga
+bmp_infogramm_b_4	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_b_4.tga
+bmp_infogramm_b_5	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_b_5.tga
+bmp_infogramm_b_6	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_b_6.tga
+bmp_infogramm_b_7	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_b_7.tga
+bmp_infogramm_b_8	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_b_8.tga
+bmp_infogramm_b_9	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_b_9.tga
+bmp_infogramm_b_5a	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_b_5a.tga
+bmp_infogramm_b_5b	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_b_5b.tga
+bmp_infogramm_b_5c	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_b_5c.tga
+bmp_infogramm_b_5d	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_b_5d.tga
+bmp_infogramm_r_1	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_r_1.tga
+bmp_infogramm_r_2	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_r_2.tga
+bmp_infogramm_r_3	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_r_3.tga
+bmp_infogramm_r_4	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_r_4.tga
+bmp_infogramm_r_5	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_r_5.tga
+bmp_infogramm_r_6	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_r_6.tga
+bmp_infogramm_r_7	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_r_7.tga
+bmp_infogramm_r_8	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_r_8.tga
+bmp_infogramm_r_9	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_r_9.tga
+bmp_infogramm_r_5a	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_r_5a.tga
+bmp_infogramm_r_5b	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_r_5b.tga
+bmp_infogramm_r_5c	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_r_5c.tga
+bmp_infogramm_r_5d	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_r_5d.tga
+bmp_infogramm_y_1	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_y_1.tga
+bmp_infogramm_y_2	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_y_2.tga
+bmp_infogramm_y_3	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_y_3.tga
+bmp_infogramm_y_4	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_y_4.tga
+bmp_infogramm_y_5	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_y_5.tga
+bmp_infogramm_y_6	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_y_6.tga
+bmp_infogramm_y_7	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_y_7.tga
+bmp_infogramm_y_8	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_y_8.tga
+bmp_infogramm_y_9	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_y_9.tga
+bmp_infogramm_y_5a	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_y_5a.tga
+bmp_infogramm_y_5b	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_y_5b.tga
+bmp_infogramm_y_5c	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_y_5c.tga
+bmp_infogramm_y_5d	widget	 723, 485, 793, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\bmp_infogramm_y_5d.tga
+gruzo_infogramm	widget	 726, 488, 789, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\gruzo_infogramm.tga
+gruzo_infogramm_b_1	widget	 726, 488, 789, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\gruzo_infogramm_b_1.tga
+gruzo_infogramm_b_2	widget	 726, 488, 789, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\gruzo_infogramm_b_2.tga
+gruzo_infogramm_b_3	widget	 726, 488, 789, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\gruzo_infogramm_b_3.tga
+gruzo_infogramm_b_4	widget	 726, 488, 789, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\gruzo_infogramm_b_4.tga
+gruzo_infogramm_b_7	widget	 726, 488, 789, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\gruzo_infogramm_b_7.tga
+gruzo_infogramm_b_6	widget	 726, 488, 789, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\gruzo_infogramm_b_6.tga
+gruzo_infogramm_b_8	widget	 726, 488, 789, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\gruzo_infogramm_b_8.tga
+gruzo_infogramm_b_9	widget	 726, 488, 789, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\gruzo_infogramm_b_9.tga
+gruzo_infogramm_r_1	widget	 726, 488, 789, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\gruzo_infogramm_r_1.tga
+gruzo_infogramm_r_2	widget	 726, 488, 789, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\gruzo_infogramm_r_2.tga
+gruzo_infogramm_r_3	widget	 726, 488, 789, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\gruzo_infogramm_r_3.tga
+gruzo_infogramm_r_4	widget	 726, 488, 789, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\gruzo_infogramm_r_4.tga
+gruzo_infogramm_r_7	widget	 726, 488, 789, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\gruzo_infogramm_r_7.tga
+gruzo_infogramm_r_6	widget	 726, 488, 789, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\gruzo_infogramm_r_6.tga
+gruzo_infogramm_r_8	widget	 726, 488, 789, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\gruzo_infogramm_r_8.tga
+gruzo_infogramm_r_9	widget	 726, 488, 789, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\gruzo_infogramm_r_9.tga
+gruzo_infogramm_y_1	widget	 726, 488, 789, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\gruzo_infogramm_y_1.tga
+gruzo_infogramm_y_2	widget	 726, 488, 789, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\gruzo_infogramm_y_2.tga
+gruzo_infogramm_y_3	widget	 726, 488, 789, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\gruzo_infogramm_y_3.tga
+gruzo_infogramm_y_4	widget	 726, 488, 789, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\gruzo_infogramm_y_4.tga
+gruzo_infogramm_y_7	widget	 726, 488, 789, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\gruzo_infogramm_y_7.tga
+gruzo_infogramm_y_6	widget	 726, 488, 789, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\gruzo_infogramm_y_6.tga
+gruzo_infogramm_y_8	widget	 726, 488, 789, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\gruzo_infogramm_y_8.tga
+gruzo_infogramm_y_9	widget	 726, 488, 789, 594				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\gruzo_infogramm_y_9.tga
+mashinka_infogramm	widget	 723, 489, 793, 590				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\mashinka_infogramm.tga
+mashinka_infogramm_b_1	widget	 723, 489, 793, 590				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\mashinka_infogramm_b_1.tga
+mashinka_infogramm_b_2	widget	 723, 489, 793, 590				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\mashinka_infogramm_b_2.tga
+mashinka_infogramm_b_3	widget	 723, 489, 793, 590				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\mashinka_infogramm_b_3.tga
+mashinka_infogramm_b_6	widget	 723, 489, 793, 590				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\mashinka_infogramm_b_6.tga
+mashinka_infogramm_b_4	widget	 723, 489, 793, 590				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\mashinka_infogramm_b_4.tga
+mashinka_infogramm_b_7	widget	 723, 489, 793, 590				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\mashinka_infogramm_b_7.tga
+mashinka_infogramm_b_9	widget	 723, 489, 793, 590				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\mashinka_infogramm_b_9.tga
+mashinka_infogramm_b_8	widget	 723, 489, 793, 590				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\mashinka_infogramm_b_8.tga
+mashinka_infogramm_r_1	widget	 723, 489, 793, 590				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\mashinka_infogramm_r_1.tga
+mashinka_infogramm_r_2	widget	 723, 489, 793, 590				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\mashinka_infogramm_r_2.tga
+mashinka_infogramm_r_3	widget	 723, 489, 793, 590				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\mashinka_infogramm_r_3.tga
+mashinka_infogramm_r_6	widget	 723, 489, 793, 590				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\mashinka_infogramm_r_6.tga
+mashinka_infogramm_r_4	widget	 723, 489, 793, 590				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\mashinka_infogramm_r_4.tga
+mashinka_infogramm_r_7	widget	 723, 489, 793, 590				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\mashinka_infogramm_r_7.tga
+mashinka_infogramm_r_9	widget	 723, 489, 793, 590				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\mashinka_infogramm_r_9.tga
+mashinka_infogramm_r_8	widget	 723, 489, 793, 590				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\mashinka_infogramm_r_8.tga
+mashinka_infogramm_y_1	widget	 723, 489, 793, 590				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\mashinka_infogramm_y_1.tga
+mashinka_infogramm_y_2	widget	 723, 489, 793, 590				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\mashinka_infogramm_y_2.tga
+mashinka_infogramm_y_3	widget	 723, 489, 793, 590				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\mashinka_infogramm_y_3.tga
+mashinka_infogramm_y_6	widget	 723, 489, 793, 590				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\mashinka_infogramm_y_6.tga
+mashinka_infogramm_y_4	widget	 723, 489, 793, 590				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\mashinka_infogramm_y_4.tga
+mashinka_infogramm_y_7	widget	 723, 489, 793, 590				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\mashinka_infogramm_y_7.tga
+Tech_img	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+mashinka_infogramm_y_9	widget	 723, 489, 793, 590				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\mashinka_infogramm_y_9.tga
+mashinka_infogramm_y_8	widget	 723, 489, 793, 590				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\mashinka_infogramm_y_8.tga
+vertoleto_infogramm	widget	 723, 488, 793, 592				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\vertoleto_infogramm.tga
+vertoleto_infogramm_b_2	widget	 723, 488, 793, 592				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\vertoleto_infogramm_b_2.tga
+vertoleto_infogramm_b_4	widget	 723, 488, 793, 592				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\vertoleto_infogramm_b_4.tga
+vertoleto_infogramm_b_6	widget	 723, 488, 793, 592				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\vertoleto_infogramm_b_6.tga
+vertoleto_infogramm_b_8	widget	 723, 488, 793, 592				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\vertoleto_infogramm_b_8.tga
+vertoleto_infogramm_r_2	widget	 723, 488, 793, 592				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\vertoleto_infogramm_r_2.tga
+vertoleto_infogramm_r_4	widget	 723, 488, 793, 592				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\vertoleto_infogramm_r_4.tga
+vertoleto_infogramm_r_6	widget	 723, 488, 793, 592				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\vertoleto_infogramm_r_6.tga
+vertoleto_infogramm_r_8	widget	 723, 488, 793, 592				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\vertoleto_infogramm_r_8.tga
+vertoleto_infogramm_y_2	widget	 723, 488, 793, 592				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\vertoleto_infogramm_y_2.tga
+vertoleto_infogramm_y_4	widget	 723, 488, 793, 592				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\vertoleto_infogramm_y_4.tga
+vertoleto_infogramm_y_6	widget	 723, 488, 793, 592				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\vertoleto_infogramm_y_6.tga
+vertoleto_infogramm_y_8	widget	 723, 488, 793, 592				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	infogramm\vertoleto_infogramm_y_8.tga
+Button_move0	button	 241, 516, 279, 554				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image_normal	main\buttons\rukami_normal.tga
+					image_selected	main\buttons\rukami_normal.tga
+					image_pressed	main\buttons\rukami_normal.tga
+					mode	check
+Button_attack0	button	 282, 516, 320, 554				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image_normal	main\buttons\patrol_normal.tga
+					image_selected	main\buttons\patrol_normal.tga
+					image_pressed	main\buttons\patrol_normal.tga
+					mode	check
+Button_stop0	button	 323, 516, 361, 554				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image_normal	main\buttons\guard_normal.tga
+					image_selected	main\buttons\guard_normal.tga
+					image_pressed	main\buttons\guard_normal.tga
+					mode	normal
+Button_refuel	button	 241, 559, 279, 597				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image_normal	main\buttons\refuel_normal.tga
+					image_selected	main\buttons\refuel_over.tga
+					image_pressed	main\buttons\refuel_press.tga
+					mode	normal
+Button_reload	button	 282, 559, 320, 597				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image_normal	main\buttons\reload_normal.tga
+					image_selected	main\buttons\reload_over.tga
+					image_pressed	main\buttons\reload_press.tga
+					mode	normal
+Button_cover	button	 323, 559, 361, 597		В укрытие		
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image_normal	main\buttons\cover_normal.tga
+					image_selected	main\buttons\cover_over.tga
+					image_pressed	main\buttons\cover_press.tga
+					mode	normal
+ReloadBar	progress_bar	 629, 531, 706, 542				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	progress_background.tga
+					progress_image	progress.tga
+					direction	horizontal
+					font	arial12b
+					color	0xffFFFFFF
+Parameters_ammo	text	 630, 530, 706, 540				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					font	arial8b
+					single_line	true
+					color	0xff000000
+ParametersTitle_ammo	text	 570, 530, 630, 540				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					font	arial8b
+					single_line	true
+					color	0xff000000
+car_arv_base_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_arv_base_ekipazh.tga
+car_arv_base_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_arv_base_ekipazh_red.tga
+car_arv_base_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_arv_base_engine.tga
+car_arv_base_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_arv_base_engine_red.tga
+car_arv_base_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_arv_base_gruz.tga
+car_arv_base_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_arv_base_gruz_red.tga
+car_arv_base_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_arv_base_gun.tga
+car_arv_base_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_arv_base_gun_red.tga
+car_arv_base_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_arv_base_shassi.tga
+car_arv_base_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_arv_base_shassi_red.tga
+car_arv_gun_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_arv_gun_ekipazh.tga
+car_arv_gun_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_arv_gun_ekipazh_red.tga
+car_arv_gun_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_arv_gun_engine.tga
+car_arv_gun_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_arv_gun_engine_red.tga
+car_arv_gun_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_arv_gun_gun.tga
+car_arv_gun_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_arv_gun_gun_red.tga
+car_arv_gun_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_arv_gun_shassi.tga
+car_arv_gun_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_arv_gun_shassi_red.tga
+car_brdm_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_brdm_ekipazh.tga
+car_brdm_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_brdm_ekipazh_red.tga
+car_brdm_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_brdm_engine.tga
+car_brdm_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_brdm_engine_red.tga
+car_brdm_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_brdm_gun.tga
+car_brdm_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_brdm_gun_red.tga
+car_brdm_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_brdm_shassi.tga
+car_brdm_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_brdm_shassi_red.tga
+car_btr70_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr70_ekipazh.tga
+car_btr70_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr70_ekipazh_red.tga
+car_btr70_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr70_engine.tga
+car_btr70_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr70_engine_red.tga
+car_btr70_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr70_gruz.tga
+car_btr70_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr70_gruz_red.tga
+car_btr70_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr70_gun.tga
+car_btr70_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr70_gun_red.tga
+car_btr70_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr70_shassi.tga
+car_btr70_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr70_shassi_red.tga
+car_btr80_arm_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_arm_ekipazh.tga
+car_btr80_arm_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_arm_ekipazh_red.tga
+car_btr80_arm_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_arm_engine.tga
+car_btr80_arm_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_arm_engine_red.tga
+car_btr80_arm_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_arm_gruz.tga
+car_btr80_arm_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_arm_gruz_red.tga
+car_btr80_arm_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_arm_gun.tga
+car_btr80_arm_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_arm_gun_red.tga
+car_btr80_arm_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_arm_shassi.tga
+car_btr80_arm_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_arm_shassi_red.tga
+car_btr80_base_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_base_ekipazh.tga
+car_btr80_base_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_base_ekipazh_red.tga
+car_btr80_base_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_base_engine.tga
+car_btr80_base_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_base_engine_red.tga
+car_btr80_base_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_base_gruz.tga
+car_btr80_base_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_base_gruz_red.tga
+car_btr80_base_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_base_gun.tga
+car_btr80_base_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_base_gun_red.tga
+car_btr80_base_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_base_shassi.tga
+car_btr80_base_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_base_shassi_red.tga
+car_btr80_gun_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_gun_ekipazh.tga
+car_btr80_gun_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_gun_ekipazh_red.tga
+car_btr80_gun_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_gun_engine.tga
+car_btr80_gun_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_gun_engine_red.tga
+car_btr80_gun_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_gun_gruz.tga
+car_btr80_gun_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_gun_gruz_red.tga
+car_btr80_gun_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_gun_gun.tga
+car_btr80_gun_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_gun_gun_red.tga
+car_btr80_gun_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_gun_shassi.tga
+car_btr80_gun_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_btr80_gun_shassi_red.tga
+car_dpv_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_dpv_ekipazh.tga
+car_dpv_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_dpv_ekipazh_red.tga
+car_dpv_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_dpv_engine.tga
+car_dpv_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_dpv_engine_red.tga
+car_dpv_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_dpv_gun.tga
+car_dpv_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_dpv_gun_red.tga
+car_dpv_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_dpv_shassi.tga
+car_dpv_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_dpv_shassi_red.tga
+car_grad_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_grad_ekipazh.tga
+car_grad_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_grad_ekipazh_red.tga
+car_grad_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_grad_engine.tga
+car_grad_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_grad_engine_red.tga
+car_grad_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_grad_gun.tga
+car_grad_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_grad_gun_red.tga
+car_grad_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_grad_shassi.tga
+car_grad_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_grad_shassi_red.tga
+car_hummer_gun_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_gun_ekipazh.tga
+car_hummer_gun_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_gun_ekipazh_red.tga
+car_hummer_gun_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_gun_engine.tga
+car_hummer_gun_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_gun_engine_red.tga
+car_hummer_gun_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_gun_gruz.tga
+car_hummer_gun_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_gun_gruz_red.tga
+car_hummer_gun_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_gun_gun.tga
+car_hummer_gun_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_gun_gun_red.tga
+car_hummer_gun_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_gun_shassi.tga
+car_hummer_gun_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_gun_shassi_red.tga
+car_hummer_medical_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_medical_ekipazh.tga
+car_hummer_medical_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_medical_ekipazh_red.tga
+car_hummer_medical_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_medical_engine.tga
+car_hummer_medical_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_medical_engine_red.tga
+car_hummer_medical_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_medical_gruz.tga
+car_hummer_medical_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_medical_gruz_red.tga
+car_hummer_medical_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_medical_shassi.tga
+car_hummer_medical_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_medical_shassi_red.tga
+car_hummer_ptur_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_ptur_ekipazh.tga
+car_hummer_ptur_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_ptur_ekipazh_red.tga
+car_hummer_ptur_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_ptur_engine.tga
+car_hummer_ptur_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_ptur_engine_red.tga
+car_hummer_ptur_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_ptur_gun.tga
+car_hummer_ptur_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_ptur_gun_red.tga
+car_hummer_ptur_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_ptur_shassi.tga
+car_hummer_ptur_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_ptur_shassi_red.tga
+car_hummer_stinger_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_stinger_ekipazh.tga
+car_hummer_stinger_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_stinger_ekipazh_red.tga
+car_hummer_stinger_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_stinger_engine.tga
+car_hummer_stinger_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_stinger_engine_red.tga
+car_hummer_stinger_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_stinger_gun.tga
+car_hummer_stinger_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_stinger_gun_red.tga
+car_hummer_stinger_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_stinger_shassi.tga
+car_hummer_stinger_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_stinger_shassi_red.tga
+car_hummer_truck_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_truck_ekipazh.tga
+car_hummer_truck_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_truck_ekipazh_red.tga
+car_hummer_truck_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_truck_engine.tga
+car_hummer_truck_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_truck_engine_red.tga
+car_hummer_truck_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_truck_gruz.tga
+car_hummer_truck_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_truck_gruz_red.tga
+car_hummer_truck_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_truck_shassi.tga
+car_hummer_truck_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_hummer_truck_shassi_red.tga
+car_landrover110_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_landrover110_ekipazh.tga
+car_landrover110_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_landrover110_ekipazh_red.tga
+car_landrover110_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_landrover110_engine.tga
+car_landrover110_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_landrover110_engine_red.tga
+car_landrover110_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_landrover110_gun.tga
+car_landrover110_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_landrover110_gun_red.tga
+car_landrover110_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_landrover110_shassi.tga
+car_landrover110_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_landrover110_shassi_red.tga
+car_m817_gun_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_gun_ekipazh.tga
+car_m817_gun_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_gun_ekipazh_red.tga
+car_m817_gun_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_gun_engine.tga
+car_m817_gun_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_gun_engine_red.tga
+car_m817_gun_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_gun_gruz.tga
+car_m817_gun_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_gun_gruz_red.tga
+car_m817_gun_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_gun_gun.tga
+car_m817_gun_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_gun_gun_red.tga
+car_m817_gun_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_gun_shassi.tga
+car_m817_gun_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_gun_shassi_red.tga
+car_m817_passenger_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_passenger_ekipazh.tga
+car_m817_passenger_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_passenger_ekipazh_red.tga
+car_m817_passenger_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_passenger_engine.tga
+car_m817_passenger_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_passenger_engine_red.tga
+car_m817_passenger_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_passenger_gruz.tga
+car_m817_passenger_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_passenger_gruz_red.tga
+car_m817_passenger_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_passenger_shassi.tga
+car_m817_passenger_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_passenger_shassi_red.tga
+car_m817_tanker_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_tanker_ekipazh.tga
+car_m817_tanker_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_tanker_ekipazh_red.tga
+car_m817_tanker_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_tanker_engine.tga
+car_m817_tanker_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_tanker_engine_red.tga
+car_m817_tanker_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_tanker_gruz.tga
+car_m817_tanker_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_tanker_gruz_red.tga
+car_m817_tanker_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_tanker_shassi.tga
+car_m817_tanker_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_tanker_shassi_red.tga
+car_m817_truck_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_truck_ekipazh.tga
+car_m817_truck_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_truck_ekipazh_red.tga
+car_m817_truck_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_truck_engine.tga
+car_m817_truck_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_truck_engine_red.tga
+car_m817_truck_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_truck_gruz.tga
+car_m817_truck_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_truck_gruz_red.tga
+car_m817_truck_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_truck_shassi.tga
+car_m817_truck_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m817_truck_shassi_red.tga
+car_m978_passenger_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_passenger_ekipazh.tga
+car_m978_passenger_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_passenger_ekipazh_red.tga
+car_m978_passenger_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_passenger_engine.tga
+car_m978_passenger_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_passenger_engine_red.tga
+car_m978_passenger_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_passenger_gruz.tga
+car_m978_passenger_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_passenger_gruz_red.tga
+car_m978_passenger_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_passenger_shassi.tga
+car_m978_passenger_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_passenger_shassi_red.tga
+car_m978_pricepnoy_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_pricepnoy_ekipazh.tga
+car_m978_pricepnoy_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_pricepnoy_ekipazh_red.tga
+car_m978_pricepnoy_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_pricepnoy_engine.tga
+car_m978_pricepnoy_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_pricepnoy_engine_red.tga
+car_m978_pricepnoy_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_pricepnoy_shassi.tga
+car_m978_pricepnoy_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_pricepnoy_shassi_red.tga
+car_m978_tanker_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_tanker_ekipazh.tga
+car_m978_tanker_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_tanker_ekipazh_red.tga
+car_m978_tanker_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_tanker_engine.tga
+car_m978_tanker_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_tanker_engine_red.tga
+car_m978_tanker_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_tanker_gruz.tga
+car_m978_tanker_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_tanker_gruz_red.tga
+car_m978_tanker_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_tanker_shassi.tga
+car_m978_tanker_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_tanker_shassi_red.tga
+car_m978_truck_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_truck_ekipazh.tga
+car_m978_truck_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_truck_ekipazh_red.tga
+car_m978_truck_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_truck_engine.tga
+car_m978_truck_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_truck_engine_red.tga
+car_m978_truck_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_truck_gruz.tga
+car_m978_truck_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_truck_gruz_red.tga
+car_m978_truck_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_truck_shassi.tga
+car_m978_truck_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_m978_truck_shassi_red.tga
+car_minivan_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_minivan_ekipazh.tga
+car_minivan_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_minivan_ekipazh_red.tga
+car_minivan_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_minivan_engine.tga
+car_minivan_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_minivan_engine_red.tga
+car_minivan_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_minivan_gruz.tga
+car_minivan_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_minivan_gruz_red.tga
+car_minivan_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_minivan_shassi.tga
+car_minivan_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_minivan_shassi_red.tga
+car_scud_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_scud_ekipazh.tga
+car_scud_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_scud_ekipazh_red.tga
+car_scud_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_scud_engine.tga
+car_scud_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_scud_engine_red.tga
+car_scud_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_scud_gun.tga
+car_scud_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_scud_gun_red.tga
+car_scud_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_scud_shassi.tga
+car_scud_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_scud_shassi_red.tga
+car_toyota_detpak_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_detpak_ekipazh.tga
+car_toyota_detpak_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_detpak_ekipazh_red.tga
+car_toyota_detpak_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_detpak_engine.tga
+car_toyota_detpak_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_detpak_engine_red.tga
+car_toyota_detpak_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_detpak_gruz.tga
+car_toyota_detpak_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_detpak_gruz_red.tga
+car_toyota_detpak_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_detpak_shassi.tga
+car_toyota_detpak_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_detpak_shassi_red.tga
+car_toyota_gun_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_gun_ekipazh.tga
+car_toyota_gun_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_gun_ekipazh_red.tga
+car_toyota_gun_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_gun_engine.tga
+car_toyota_gun_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_gun_engine_red.tga
+car_toyota_gun_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_gun_gun.tga
+car_toyota_gun_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_gun_gun_red.tga
+car_toyota_gun_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_gun_shassi.tga
+car_toyota_gun_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_gun_shassi_red.tga
+car_toyota_stinger_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_stinger_ekipazh.tga
+car_toyota_stinger_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_stinger_ekipazh_red.tga
+car_toyota_stinger_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_stinger_engine.tga
+car_toyota_stinger_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_stinger_engine_red.tga
+car_toyota_stinger_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_stinger_gun.tga
+car_toyota_stinger_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_stinger_gun_red.tga
+car_toyota_stinger_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_stinger_shassi.tga
+car_toyota_stinger_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_stinger_shassi_red.tga
+car_toyota_track_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_track_ekipazh.tga
+car_toyota_track_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_track_ekipazh_red.tga
+car_toyota_track_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_track_engine.tga
+car_toyota_track_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_track_engine_red.tga
+car_toyota_track_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_track_shassi.tga
+car_toyota_track_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_toyota_track_shassi_red.tga
+car_uragan_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_uragan_ekipazh.tga
+car_uragan_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_uragan_ekipazh_red.tga
+car_uragan_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_uragan_engine.tga
+car_uragan_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_uragan_engine_red.tga
+car_uragan_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_uragan_gun.tga
+car_uragan_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_uragan_gun_red.tga
+car_uragan_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_uragan_shassi.tga
+car_uragan_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_uragan_shassi_red.tga
+car_ural_cabin_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_cabin_ekipazh.tga
+car_ural_cabin_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_cabin_ekipazh_red.tga
+car_ural_cabin_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_cabin_engine.tga
+car_ural_cabin_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_cabin_engine_red.tga
+car_ural_cabin_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_cabin_gruz.tga
+car_ural_cabin_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_cabin_gruz_red.tga
+car_ural_cabin_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_cabin_shassi.tga
+car_ural_cabin_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_cabin_shassi_red.tga
+car_ural_demopack_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_demopack_ekipazh.tga
+car_ural_demopack_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_demopack_ekipazh_red.tga
+car_ural_demopack_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_demopack_engine.tga
+car_ural_demopack_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_demopack_engine_red.tga
+car_ural_demopack_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_demopack_gruz.tga
+car_ural_demopack_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_demopack_gruz_red.tga
+car_ural_demopack_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_demopack_shassi.tga
+car_ural_demopack_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_demopack_shassi_red.tga
+car_ural_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_ekipazh.tga
+car_ural_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_ekipazh_red.tga
+car_ural_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_engine.tga
+car_ural_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_engine_red.tga
+car_ural_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_gruz.tga
+car_ural_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_gruz_red.tga
+car_ural_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_shassi.tga
+car_ural_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_shassi_red.tga
+car_ural_tanker_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_tanker_ekipazh.tga
+car_ural_tanker_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_tanker_ekipazh_red.tga
+car_ural_tanker_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_tanker_engine.tga
+car_ural_tanker_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_tanker_engine_red.tga
+car_ural_tanker_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_tanker_gruz.tga
+car_ural_tanker_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_tanker_gruz_red.tga
+car_ural_tanker_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_tanker_shassi.tga
+car_ural_tanker_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_tanker_shassi_red.tga
+car_ural_truck_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_truck_ekipazh.tga
+car_ural_truck_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_truck_ekipazh_red.tga
+car_ural_truck_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_truck_engine.tga
+car_ural_truck_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_truck_engine_red.tga
+car_ural_truck_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_truck_gruz.tga
+car_ural_truck_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_truck_gruz_red.tga
+car_ural_truck_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_truck_shassi.tga
+car_ural_truck_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\car_ural_truck_shassi_red.tga
+sp.txt	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	sp.txt
+tank_abrams_base_bash	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_abrams_base_bash.tga
+tank_abrams_base_bash_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_abrams_base_bash_red.tga
+tank_abrams_base_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_abrams_base_ekipazh.tga
+tank_abrams_base_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_abrams_base_ekipazh_red.tga
+tank_abrams_base_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_abrams_base_engine.tga
+tank_abrams_base_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_abrams_base_engine_red.tga
+tank_abrams_base_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_abrams_base_gun.tga
+tank_abrams_base_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_abrams_base_gun_red.tga
+tank_abrams_base_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_abrams_base_shassi.tga
+tank_abrams_base_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_abrams_base_shassi_red.tga
+tank_abrams_guidsys_bash	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_abrams_guidsys_bash.tga
+tank_abrams_guidsys_bash_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_abrams_guidsys_bash_red.tga
+tank_abrams_guidsys_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_abrams_guidsys_ekipazh.tga
+tank_abrams_guidsys_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_abrams_guidsys_ekipazh_red.tga
+tank_abrams_guidsys_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_abrams_guidsys_engine.tga
+tank_abrams_guidsys_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_abrams_guidsys_engine_red.tga
+tank_abrams_guidsys_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_abrams_guidsys_gun.tga
+tank_abrams_guidsys_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_abrams_guidsys_gun_red.tga
+tank_abrams_guidsys_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_abrams_guidsys_shassi.tga
+tank_abrams_guidsys_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_abrams_guidsys_shassi_red.tga
+tank_BMP1_base_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_base_ekipazh.tga
+tank_BMP1_base_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_base_ekipazh_red.tga
+tank_BMP1_base_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_base_engine.tga
+tank_BMP1_base_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_base_engine_red.tga
+tank_BMP1_base_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_base_gruz.tga
+tank_BMP1_base_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_base_gruz_red.tga
+tank_BMP1_base_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_base_gun.tga
+tank_BMP1_base_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_base_gun_red.tga
+tank_BMP1_base_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_base_shassi.tga
+tank_BMP1_base_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_base_shassi_red.tga
+tank_BMP1_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_ekipazh.tga
+tank_BMP1_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_ekipazh_red.tga
+tank_BMP1_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_engine.tga
+tank_BMP1_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_engine_red.tga
+tank_BMP1_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_gruz.tga
+tank_BMP1_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_gruz_red.tga
+tank_BMP1_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_gun.tga
+tank_BMP1_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_gun_red.tga
+tank_BMP1_ptur_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_ptur_ekipazh.tga
+tank_BMP1_ptur_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_ptur_ekipazh_red.tga
+tank_BMP1_ptur_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_ptur_engine.tga
+tank_BMP1_ptur_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_ptur_engine_red.tga
+tank_BMP1_ptur_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_ptur_gruz.tga
+tank_BMP1_ptur_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_ptur_gruz_red.tga
+tank_BMP1_ptur_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_ptur_gun.tga
+tank_BMP1_ptur_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_ptur_gun_red.tga
+tank_BMP1_ptur_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_ptur_shassi.tga
+tank_BMP1_ptur_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_ptur_shassi_red.tga
+tank_BMP1_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_shassi.tga
+tank_BMP1_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp1_shassi_red.tga
+tank_bmp3_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp3_ekipazh.tga
+tank_bmp3_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp3_ekipazh_red.tga
+tank_bmp3_engile	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp3_engile.tga
+tank_bmp3_engile_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp3_engile_red.tga
+tank_bmp3_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp3_gruz.tga
+tank_bmp3_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp3_gruz_red.tga
+tank_bmp3_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp3_gun.tga
+tank_bmp3_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp3_gun_red.tga
+tank_bmp3_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp3_shassi.tga
+tank_bmp3_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bmp3_shassi_red.tga
+tank_bradley_arm_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_arm_ekipazh.tga
+tank_bradley_arm_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_arm_ekipazh_red.tga
+tank_bradley_arm_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_arm_engine.tga
+tank_bradley_arm_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_arm_engine_red.tga
+tank_bradley_arm_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_arm_gruz.tga
+tank_bradley_arm_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_arm_gruz_red.tga
+tank_bradley_arm_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_arm_gun.tga
+tank_bradley_arm_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_arm_gun_red.tga
+tank_bradley_arm_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_arm_shassi.tga
+tank_bradley_arm_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_arm_shassi_red.tga
+tank_bradley_base_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_base_ekipazh.tga
+tank_bradley_base_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_base_ekipazh_red.tga
+tank_bradley_base_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_base_engine.tga
+tank_bradley_base_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_base_engine_red.tga
+tank_bradley_base_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_base_gruz.tga
+tank_bradley_base_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_base_gruz_red.tga
+tank_bradley_base_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_base_gun.tga
+tank_bradley_base_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_base_gun_red.tga
+tank_bradley_base_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_base_shassi.tga
+tank_bradley_base_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_base_shassi_red.tga
+tank_bradley_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_ekipazh.tga
+tank_bradley_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_ekipazh_red.tga
+tank_bradley_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_engine.tga
+tank_bradley_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_engine_red.tga
+tank_bradley_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_gruz.tga
+tank_bradley_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_gruz_red.tga
+tank_bradley_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_gun.tga
+tank_bradley_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_gun_red.tga
+tank_bradley_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_shassi.tga
+tank_bradley_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_shassi_red.tga
+tank_bradley_smoke_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_smoke_ekipazh.tga
+tank_bradley_smoke_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_smoke_ekipazh_red.tga
+tank_bradley_smoke_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_smoke_engine.tga
+tank_bradley_smoke_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_smoke_engine_red.tga
+tank_bradley_smoke_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_smoke_gruz.tga
+tank_bradley_smoke_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_smoke_gruz_red.tga
+tank_bradley_smoke_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_smoke_gun.tga
+tank_bradley_smoke_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_smoke_gun_red.tga
+tank_bradley_smoke_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_smoke_shassi.tga
+tank_bradley_smoke_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bradley_smoke_shassi_red.tga
+tank_brem88_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_brem88_ekipazh.tga
+tank_brem88_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_brem88_ekipazh_red.tga
+tank_brem88_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_brem88_engine.tga
+tank_brem88_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_brem88_engine_red.tga
+tank_brem88_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_brem88_shassi.tga
+tank_brem88_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_brem88_shassi_red.tga
+tank_bremt72_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bremt72_ekipazh.tga
+tank_bremt72_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bremt72_ekipazh_red.tga
+tank_bremt72_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bremt72_engine.tga
+tank_bremt72_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bremt72_engine_red.tga
+tank_bremt72_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bremt72_shassi.tga
+tank_bremt72_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_bremt72_shassi_red.tga
+tank_challenger2_bash	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_challenger2_bash.tga
+tank_challenger2_bash_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_challenger2_bash_red.tga
+tank_challenger2_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_challenger2_ekipazh.tga
+tank_challenger2_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_challenger2_ekipazh_red.tga
+tank_challenger2_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_challenger2_engine.tga
+tank_challenger2_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_challenger2_engine_red.tga
+tank_challenger2_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_challenger2_gun.tga
+tank_challenger2_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_challenger2_gun_red.tga
+tank_challenger2_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_challenger2_shassi.tga
+tank_challenger2_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_challenger2_shassi_red.tga
+tank_crusader_bash	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_crusader_bash.tga
+tank_crusader_bash_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_crusader_bash_red.tga
+tank_crusader_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_crusader_ekipazh.tga
+tank_crusader_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_crusader_ekipazh_red.tga
+tank_crusader_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_crusader_engine.tga
+tank_crusader_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_crusader_engine_red.tga
+tank_crusader_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_crusader_gun.tga
+tank_crusader_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_crusader_gun_red.tga
+tank_crusader_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_crusader_shassi.tga
+tank_crusader_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_crusader_shassi_red.tga
+tank_gvozdika_bash	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_gvozdika_bash.tga
+tank_gvozdika_bash_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_gvozdika_bash_red.tga
+tank_gvozdika_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_gvozdika_ekipazh.tga
+tank_gvozdika_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_gvozdika_ekipazh_red.tga
+tank_gvozdika_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_gvozdika_engine.tga
+tank_gvozdika_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_gvozdika_engine_red.tga
+tank_gvozdika_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_gvozdika_gun.tga
+tank_gvozdika_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_gvozdika_gun_red.tga
+tank_gvozdika_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_gvozdika_shassi.tga
+tank_gvozdika_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_gvozdika_shassi_red.tga
+tank_leclerc_bash	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_leclerc_bash.tga
+tank_leclerc_bash_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_leclerc_bash_red.tga
+tank_leclerc_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_leclerc_ekipazh.tga
+tank_leclerc_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_leclerc_ekipazh_red.tga
+tank_leclerc_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_leclerc_engine.tga
+tank_leclerc_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_leclerc_engine_red.tga
+tank_leclerc_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_leclerc_gun.tga
+tank_leclerc_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_leclerc_gun_red.tga
+tank_leclerc_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_leclerc_shassi.tga
+tank_leclerc_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_leclerc_shassi_red.tga
+tank_m113_arm_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_arm_ekipazh.tga
+tank_m113_arm_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_arm_ekipazh_red.tga
+tank_m113_arm_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_arm_engine.tga
+tank_m113_arm_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_arm_engine_red.tga
+tank_m113_arm_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_arm_gruz.tga
+tank_m113_arm_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_arm_gruz_red.tga
+tank_m113_arm_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_arm_gun.tga
+tank_m113_arm_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_arm_gun_red.tga
+tank_m113_arm_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_arm_shassi.tga
+tank_m113_arm_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_arm_shassi_red.tga
+tank_m113_base_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_base_ekipazh.tga
+tank_m113_base_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_base_ekipazh_red.tga
+tank_m113_base_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_base_engine.tga
+tank_m113_base_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_base_engine_red.tga
+tank_m113_base_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_base_gruz.tga
+tank_m113_base_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_base_gruz_red.tga
+tank_m113_base_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_base_gun.tga
+tank_m113_base_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_base_gun_red.tga
+tank_m113_base_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_base_shassi.tga
+tank_m113_base_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_base_shassi_red.tga
+tank_m113_missile_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_missile_ekipazh.tga
+tank_m113_missile_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_missile_ekipazh_red.tga
+tank_m113_missile_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_missile_engine.tga
+tank_m113_missile_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_missile_engine_red.tga
+tank_m113_missile_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_missile_gruz.tga
+tank_m113_missile_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_missile_gruz_red.tga
+tank_m113_missile_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_missile_gun.tga
+tank_m113_missile_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_missile_gun_red.tga
+tank_m113_missile_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_missile_shassi.tga
+tank_m113_missile_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m113_missile_shassi_red.tga
+tank_m163_arm_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_arm_ekipazh.tga
+tank_m163_arm_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_arm_ekipazh_red.tga
+tank_m163_arm_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_arm_engine.tga
+tank_m163_arm_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_arm_engine_red.tga
+tank_m163_arm_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_arm_gruz.tga
+tank_m163_arm_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_arm_gruz_red.tga
+tank_m163_arm_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_arm_gun.tga
+tank_m163_arm_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_arm_gun_red.tga
+tank_m163_arm_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_arm_shassi.tga
+tank_m163_arm_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_arm_shassi_red.tga
+tank_m163_base_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_base_ekipazh.tga
+tank_m163_base_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_base_ekipazh_red.tga
+tank_m163_base_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_base_engine.tga
+tank_m163_base_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_base_engine_red.tga
+tank_m163_base_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_base_gruz.tga
+tank_m163_base_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_base_gruz_red.tga
+tank_m163_base_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_base_gun.tga
+tank_m163_base_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_base_gun_red.tga
+tank_m163_base_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_base_shassi.tga
+tank_m163_base_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_base_shassi_red.tga
+tank_m163_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_ekipazh.tga
+tank_m163_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_ekipazh_red.tga
+tank_m163_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_engine.tga
+tank_m163_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_engine_red.tga
+tank_m163_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_gun.tga
+tank_m163_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_gun_red.tga
+tank_m163_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_shassi.tga
+tank_m163_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_shassi_red.tga
+tank_m163_stinger_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_stinger_ekipazh.tga
+tank_m163_stinger_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_stinger_ekipazh_red.tga
+tank_m163_stinger_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_stinger_engine.tga
+tank_m163_stinger_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_stinger_engine_red.tga
+tank_m163_stinger_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_stinger_gruz.tga
+tank_m163_stinger_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_stinger_gruz_red.tga
+tank_m163_stinger_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_stinger_gun.tga
+tank_m163_stinger_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_stinger_gun_red.tga
+tank_m163_stinger_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_stinger_shassi.tga
+tank_m163_stinger_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_m163_stinger_shassi_red.tga
+tank_mlrs_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_mlrs_ekipazh.tga
+tank_mlrs_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_mlrs_ekipazh_red.tga
+tank_mlrs_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_mlrs_engine.tga
+tank_mlrs_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_mlrs_engine_red.tga
+tank_mlrs_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_mlrs_gun.tga
+tank_mlrs_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_mlrs_gun_red.tga
+tank_mlrs_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_mlrs_shassi.tga
+tank_mlrs_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_mlrs_shassi_red.tga
+tank_shilka_arm_bash	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_arm_bash.tga
+tank_shilka_arm_bash_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_arm_bash_red.tga
+tank_shilka_arm_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_arm_ekipazh.tga
+tank_shilka_arm_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_arm_ekipazh_red.tga
+tank_shilka_arm_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_arm_engine.tga
+tank_shilka_arm_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_arm_engine_red.tga
+tank_shilka_arm_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_arm_gun.tga
+tank_shilka_arm_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_arm_gun_red.tga
+tank_shilka_arm_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_arm_shassi.tga
+tank_shilka_arm_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_arm_shassi_red.tga
+tank_shilka_base_bash	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_base_bash.tga
+tank_shilka_base_bash_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_base_bash_red.tga
+tank_shilka_base_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_base_ekipazh.tga
+tank_shilka_base_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_base_ekipazh_red.tga
+tank_shilka_base_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_base_engine.tga
+tank_shilka_base_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_base_engine_red.tga
+tank_shilka_base_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_base_gun.tga
+tank_shilka_base_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_base_gun_red.tga
+tank_shilka_base_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_base_shassi.tga
+tank_shilka_base_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_base_shassi_red.tga
+tank_shilka_bash	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_bash.tga
+tank_shilka_bash_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_bash_red.tga
+tank_shilka_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_ekipazh.tga
+tank_shilka_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_ekipazh_red.tga
+tank_shilka_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_engine.tga
+tank_shilka_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_engine_red.tga
+tank_shilka_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_gun.tga
+tank_shilka_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_gun_red.tga
+tank_shilka_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_shassi.tga
+tank_shilka_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_shilka_shassi_red.tga
+tank_t55_bash	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t55_bash.tga
+tank_t55_bash_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t55_bash_red.tga
+tank_t55_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t55_ekipazh.tga
+tank_t55_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t55_ekipazh_red.tga
+tank_t55_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t55_engine.tga
+tank_t55_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t55_engine_red.tga
+tank_t55_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t55_gun.tga
+tank_t55_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t55_gun_red.tga
+tank_t55_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t55_shassi.tga
+tank_t55_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t55_shassi_red.tga
+tank_t72_arm_bash	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_arm_bash.tga
+tank_t72_arm_bash_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_arm_bash_red.tga
+tank_t72_arm_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_arm_ekipazh.tga
+tank_t72_arm_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_arm_ekipazh_red.tga
+tank_t72_arm_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_arm_engine.tga
+tank_t72_arm_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_arm_engine_red.tga
+tank_t72_arm_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_arm_gun.tga
+tank_t72_arm_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_arm_gun_red.tga
+tank_t72_arm_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_arm_shassi.tga
+tank_t72_arm_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_arm_shassi_red.tga
+tank_t72_base_bash	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_base_bash.tga
+tank_t72_base_bash_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_base_bash_red.tga
+tank_t72_base_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_base_ekipazh.tga
+tank_t72_base_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_base_ekipazh_red.tga
+tank_t72_base_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_base_engine.tga
+tank_t72_base_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_base_engine_red.tga
+tank_t72_base_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_base_gun.tga
+tank_t72_base_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_base_gun_red.tga
+tank_t72_base_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_base_shassi.tga
+tank_t72_base_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_base_shassi_red.tga
+tank_t72_bash	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_bash.tga
+tank_t72_bash_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_bash_red.tga
+tank_t72_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_ekipazh.tga
+tank_t72_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_ekipazh_red.tga
+tank_t72_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_engine.tga
+tank_t72_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_engine_red.tga
+tank_t72_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_gun.tga
+tank_t72_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_gun_red.tga
+tank_t72_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_shassi.tga
+tank_t72_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_shassi_red.tga
+tank_t72_smoke_bash	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_smoke_bash.tga
+tank_t72_smoke_bash_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_smoke_bash_red.tga
+tank_t72_smoke_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_smoke_ekipazh.tga
+tank_t72_smoke_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_smoke_ekipazh_red.tga
+tank_t72_smoke_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_smoke_engine.tga
+tank_t72_smoke_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_smoke_engine_red.tga
+tank_t72_smoke_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_smoke_gun.tga
+tank_t72_smoke_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_smoke_gun_red.tga
+tank_t72_smoke_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_smoke_shassi.tga
+tank_t72_smoke_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_t72_smoke_shassi_red.tga
+tank_tunguska_bash	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_tunguska_bash.tga
+tank_tunguska_bash_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_tunguska_bash_red.tga
+tank_tunguska_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_tunguska_ekipazh.tga
+tank_tunguska_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_tunguska_ekipazh_red.tga
+tank_tunguska_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_tunguska_engine.tga
+tank_tunguska_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_tunguska_engine_red.tga
+tank_tunguska_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_tunguska_gun.tga
+tank_tunguska_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_tunguska_gun_red.tga
+tank_tunguska_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_tunguska_shassi.tga
+tank_tunguska_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_tunguska_shassi_red.tga
+tank_warrior_ekipazh	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_warrior_ekipazh.tga
+tank_warrior_ekipazh_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_warrior_ekipazh_red.tga
+tank_warrior_engine	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_warrior_engine.tga
+tank_warrior_engine_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_warrior_engine_red.tga
+tank_warrior_gruz	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_warrior_gruz.tga
+tank_warrior_gruz_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_warrior_gruz_red.tga
+tank_warrior_gun	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_warrior_gun.tga
+tank_warrior_gun_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_warrior_gun_red.tga
+tank_warrior_shassi	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_warrior_shassi.tga
+tank_warrior_shassi_red	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	ots\tank_warrior_shassi_red.tga
+ppl_temp_	widget	 562, 509, 732, 619	left|vcenter			
+					tooltip_type	simple
+					enabled	TRUE
+					scaled	false
+					image	tech_pic\ppl_temp.tga
+face_1	widget	 738, 485, 766, 520				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	tech_pic\icon_ppl.tga
+face_2	widget	 732, 500, 760, 535				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	tech_pic\icon_ppl.tga
+face_3	widget	 738, 515, 766, 550				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	tech_pic\icon_ppl.tga
+face_4	widget	 732, 530, 760, 565				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	tech_pic\icon_ppl.tga
+face_5	widget	 738, 545, 766, 580				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	tech_pic\icon_ppl.tga
+face_6	widget	 732, 560, 760, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	tech_pic\icon_ppl.tga
+face_7	widget	 763, 485, 791, 520				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	tech_pic\icon_ppl.tga
+face_8	widget	 757, 500, 785, 535				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	tech_pic\icon_ppl.tga
+face_9	widget	 763, 515, 791, 550				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	tech_pic\icon_ppl.tga
+face_10	widget	 757, 530, 785, 565				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	tech_pic\icon_ppl.tga
+face_11	widget	 763, 545, 791, 580				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	tech_pic\icon_ppl.tga
+face_12	widget	 757, 560, 785, 595				
+					tooltip_type	simple
+					enabled	true
+					scaled	false
+					image	tech_pic\icon_ppl.tga
+MainFace	widget	 172, 447, 800, 600	right|bottom			
+					tooltip_type	simple
+					enabled	false
+					scaled	false
+					image	main\main_itself.tga
